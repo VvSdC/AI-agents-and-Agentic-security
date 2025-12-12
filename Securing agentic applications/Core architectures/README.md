@@ -36,7 +36,7 @@ Equips agents with the ability to use external tools, APIs, or functions to exte
 
 **Interaction Flow**
 
-*[Figure 1 - Tool Use Pattern Interactions will be inserted here]*
+![Tool usage flow](image.png)
 
 ---
 
@@ -54,7 +54,8 @@ Enhances LLM-based agents by first retrieving relevant information from an exter
 
 **Interaction Flow**
 
-*[Figure 3 - RAG Pattern will be inserted here]*
+![RAG architecture](image-2.png)
+
 
 ---
 
@@ -74,7 +75,7 @@ Enables agents to introspect, evaluate their past actions, decisions, or outputs
 
 **Interaction Flow**
 
-*[Figure 2 - Reflection Pattern will be inserted here]*
+![Reflection architecture](image-3.png)
 
 ---
 
@@ -106,13 +107,13 @@ If user privileges are not already restricted by a strong "Chinese Wall" model (
 
 **Key Components**
 
-- LLM brain (KC1)
+- LLM brain (KC1
 - Execution system for an API (KC6.1, KC6.3, KC6.4)
 - Authentication/authorization/IAM system
 
 **Interaction Flow**
 
-*[Figure 4 - User Assumption in Direct Model Interaction will be inserted here]*
+![User assumption in direct model interaction](image-4.png)
 
 ---
 
@@ -135,7 +136,7 @@ The agent should either:
 
 **Interaction Flow**
 
-*[Figure 5 - Direct User Interaction will be inserted here]*
+![Direct user interaction](image-5.png)
 
 ---
 
